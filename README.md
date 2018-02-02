@@ -4,7 +4,7 @@ The following unit files are used to deploy Ceph onto CoreOS
 
 ## Prerequisites
 
-TLS enabled etcd running on the same host, with TLS keys (`etcd-ca.crt`, `etcd-client.crt`, `etcd-client.key`) in `/etc/ssl`.
+TLS enabled etcd running on the same host, with TLS keys (`etcd-client-ca.crt`, `etcd-client.crt`, `etcd-client.key`) in `/etc/ssl`.
 Unused/zero'd disks for Object Storage Daemons
 
 The following defined in `/etc/environment`:
