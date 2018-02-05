@@ -10,7 +10,7 @@ Environment="MON_NAME=%H"
 Environment="KV_TYPE=etcd"
 Environment="KV_IP=%H"
 Environment="KV_PORT=2379"
-Environment="KV_CA_CERT=/etc/ssl/etcd-ca.crt"
+Environment="KV_CA_CERT=/etc/ssl/etcd-client-ca.crt"
 Environment="KV_CLIENT_CERT=/etc/ssl/etcd-client.crt"
 Environment="KV_CLIENT_KEY=/etc/ssl/etcd-client.key"
 EnvironmentFile=/etc/environment
